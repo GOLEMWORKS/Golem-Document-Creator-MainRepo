@@ -67,4 +67,10 @@
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\GDC.Business\GDC.Business.csproj" />
+      <ProjectReference Include="..\GDC.Plugins\GDC.Plugins.csproj" />
+      <ProjectReference Include="..\GDC.UseCases\GDC.UseCases.csproj" />
+    </ItemGroup>
+
 </Project>
