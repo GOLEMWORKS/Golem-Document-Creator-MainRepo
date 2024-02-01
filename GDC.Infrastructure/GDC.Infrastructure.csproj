@@ -23,4 +23,15 @@
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\GDC.Business\GDC.Business.csproj" />
+	  <ProjectReference Include="..\GDC.Plugins\GDC.Plugins.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Base\Documents\" />
+	  <Folder Include="Interfaces\" />
+	  <Folder Include="UseCases\" />
+	</ItemGroup>
+
 </Project>
