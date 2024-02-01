@@ -116,8 +116,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\GDC.Business\GDC.Business.csproj" />
-      <ProjectReference Include="..\GDC.Plugins\GDC.Plugins.csproj" />
-      <ProjectReference Include="..\GDC.UseCases\GDC.UseCases.csproj" />
+      <ProjectReference Include="..\GDC.Infrastructure\GDC.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
